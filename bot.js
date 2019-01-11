@@ -5,7 +5,7 @@ const { Client, Util } = require('discord.js');
 const client = new Discord.Client();
 const prefix = "z";
  
-const devs = ["524870863720415242"]
+const devs = ["489342754887827487"]
  
 const adminprefix = "#";
 client.on('message', message => {
@@ -72,5 +72,5 @@ client.on('message', msg => {
 }
 })
 client.on('ready', () => {
-    client.channels.get("517598518534209537").join();
+    client.channels.get("489342754887827487").join();
     });
